@@ -1,4 +1,4 @@
-# pyMultisig
+# Multisig
 A Swiss bank account in your pocket. Bitcoin multiple signature (multisig) addresses maximise security against loss, theft, hack and seizure due to the nature of the split responsibility and / or redundancy required for spending. By way of explanation, let's say I want to start a family fund, in Bitcoin. I make a 2 of 5 multisig wallet; 2 signatures required of 5 possible to spend from this address. Of the 5 generated keys, I send one key to my father. One to my mother (they live separately). One to my brother. I keep one and I send a backup paper key to a trusted family friend. Requiring at least 2 signatures immediately cuts almost any unintentional loss. Let that sink in. It is almost impossible for anyone to seize, steal, hack the funds away. It is almost impossible for you to lose access to the funds. Instant spending is easy enough with any 2 members present. Businesses, Trusts or Governments might require more signatures to avoid collusion. Herein I provide a detailed explanation and code of how to create and use your own multisig address. 
 
 # Keys
