@@ -57,7 +57,7 @@ To spend funds you will need any 2 of the 5 generated to sign the new transactio
 
 ```python
 spendSats = 10000 # satoshis to spend
-addSpend = '112eMCQJUkUz7kvxDSFCGf1nnFJZ61CE4W' # address to receive new transaction
+addSpend = '1Mnhwc4jCQvpzxSasE3wkv17eoLq85oPsc' # address to receive new transaction
 tx =  mktx (unspentOutput, addSpend+':'+str(spendSats))
 print(tx)
 
@@ -80,7 +80,7 @@ pip install bitcoin
 python pyMultisig.py
 
 # Karma Jar
-BTC - 112eMCQJUkUz7kvxDSFCGf1nnFJZ61CE4W
+BTC - 1Mnhwc4jCQvpzxSasE3wkv17eoLq85oPsc
 
 LTC - LR3BfiS77dZcp3KrEkfbXJS7U2vBoMFS7A
 
